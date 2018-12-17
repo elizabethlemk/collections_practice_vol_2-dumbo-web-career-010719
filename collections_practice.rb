@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r(array)
-  array.all? {|word| word.start_with?("r") }
+  array.all? {|word| word.downcase.start_with?("r") }
 end
 
 def contain_a(array)
